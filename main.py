@@ -15,3 +15,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Make variable regressor to call LinearRegression class
 regresor = LinearRegression()
+
+# Training the simple linear regression model on the training set
+regressor.fit(X_train, y_train)
